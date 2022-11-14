@@ -5,24 +5,24 @@
     <projectFile profileName="ReactBoard1">ReactBoard1/ReactBoard1.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b894c514-9717-41fb-b5fc-5797ce6fa86a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ReactBoard1/ClientApp/src/components/Entries/EntryCreate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBoard1/ClientApp/src/components/Entries/EntryDelete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBoard1/ClientApp/src/components/Entries/EntryDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBoard1/ClientApp/src/components/Entries/EntryEdit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBoard1/ClientApp/src/components/Entries/EntryIndex.js" afterDir="false" />
+    <list default="true" id="b894c514-9717-41fb-b5fc-5797ce6fa86a" name="Changes" comment="Entry components and db table">
+      <change afterPath="$PROJECT_DIR$/ReactBoard1.Models/Entry.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReactBoard1.Models/ReactBoard1.Models.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/Debug/net5.0/ReactBoard1.Models.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/Debug/net5.0/ReactBoard1.Models.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/Debug/net5.0/ReactBoard1.Models.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/Debug/net5.0/ReactBoard1.Models.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/Debug/net5.0/ReactBoard1.Models.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/ReactBoard1.Models.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/ReactBoard1.Models.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/ReactBoard1.Models.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReactBoard1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReactBoard1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1/ClientApp/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1/ClientApp/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1/ClientApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1/ClientApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1/ClientApp/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1/ClientApp/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1/ClientApp/src/components/NavMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1/ClientApp/src/components/NavMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1/Data/Migrations/00000000000000_CreateIdentitySchema.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1/Data/Migrations/00000000000000_CreateIdentitySchema.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1/Data/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1/ReactBoard1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1/ReactBoard1.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBoard1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,8 +104,16 @@
       <option name="presentableId" value="Default" />
       <updated>1668357453394</updated>
       <workItem from="1668357461299" duration="3076000" />
-      <workItem from="1668449430480" duration="6702000" />
+      <workItem from="1668449430480" duration="7885000" />
     </task>
+    <task id="LOCAL-00001" summary="Entry components and db table">
+      <created>1668462347958</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668462347958</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,5 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Entry components and db table" />
+    <option name="LAST_COMMIT_MESSAGE" value="Entry components and db table" />
   </component>
 </project>
