@@ -5,22 +5,10 @@
     <projectFile profileName="ReactBoard1">ReactBoard1/ReactBoard1.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b894c514-9717-41fb-b5fc-5797ce6fa86a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ReactBoard1.Models/EntryDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBoard1.Models/EntryRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBoard1.Models/IEntryRepository.cs" afterDir="false" />
+    <list default="true" id="b894c514-9717-41fb-b5fc-5797ce6fa86a" name="Changes" comment="DbContext">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReactBoard1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReactBoard1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1.Models/ReactBoard1.Models.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1.Models/ReactBoard1.Models.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1.Models/obj/Debug/net5.0/ReactBoard1.Models.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/Debug/net5.0/ReactBoard1.Models.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1.Models/obj/Debug/net5.0/ReactBoard1.Models.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/Debug/net5.0/ReactBoard1.Models.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1.Models/obj/ReactBoard1.Models.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/ReactBoard1.Models.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1.Models/obj/ReactBoard1.Models.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/ReactBoard1.Models.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1.Models/obj/ReactBoard1.Models.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/ReactBoard1.Models.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1.Models/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1.Models/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1.Models/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1.Models/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1/ReactBoard1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1/ReactBoard1.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBoard1.Models/EntryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1.Models/EntryRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBoard1.Models/IEntryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1.Models/IEntryRepository.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2387ab502ecb4cb2b55ddf5a8872c2bc8e00/82/e127a090/IRepositoryBase`3.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -103,7 +94,7 @@
       <updated>1668357453394</updated>
       <workItem from="1668357461299" duration="3076000" />
       <workItem from="1668449430480" duration="8092000" />
-      <workItem from="1668529279642" duration="4727000" />
+      <workItem from="1668529279642" duration="12017000" />
     </task>
     <task id="LOCAL-00001" summary="Entry components and db table">
       <created>1668462347958</created>
@@ -119,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668463524402</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DbContext">
+      <created>1668534586942</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668534586942</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +140,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Entry components and db table" />
     <MESSAGE value="created model class" />
-    <option name="LAST_COMMIT_MESSAGE" value="created model class" />
+    <MESSAGE value="DbContext" />
+    <option name="LAST_COMMIT_MESSAGE" value="DbContext" />
   </component>
 </project>
