@@ -123,7 +123,7 @@ namespace ReactBoard1.Models
                 }
             }
 
-            if (options.SortMode)
+            if (options.SortMode && options.SortFields != null)
             {
                 foreach (var sf in options.SortFields)
                 {
@@ -146,6 +146,10 @@ namespace ReactBoard1.Models
                             break;
                     }
                 }
+            }
+            else
+            {
+                items = items.OrderByDescending(m => m.Id);
             }
 
             var totalCount = await items.CountAsync();
