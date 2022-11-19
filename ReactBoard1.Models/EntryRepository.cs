@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 
 namespace ReactBoard1.Models
 {
-    public class EntryRepository : IEntryRepository
+    public class EntryRepository : IEntryRepository, IDisposable
     {
         private readonly EntryDbContext _entryDbContext;
         private readonly ILogger _logger;
@@ -171,7 +171,26 @@ namespace ReactBoard1.Models
                 .ToListAsync();
             return new PagingResult<Entry>(models, totalRecords);
         }
-        #endregion 
+        #endregion
+
+        #region Dispose
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                if (_entryDbContext != null)
+                {
+                  _entryDbContext?.Dispose();
+                }
+            }
+        }
+        #endregion
     }
 
     public class EntryRepositoryAdoNet

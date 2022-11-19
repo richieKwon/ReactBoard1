@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "wu8gScOdmEHSi/m23VHGZouGeSGjpEzzjPOd94wP/NPU4AMbrQ78rO6OrMtYfzEu8tiXjEfQsGhhg68N3bv89A==",
+  "success": true,
+  "projectFilePath": "/Users/richie/RiderProjects/ReactBoard1/ReactBoard1Apis/ReactBoard1Apis.csproj",
+  "expectedPackageFiles": [
+    "/Users/richie/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/Users/richie/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/richie/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/Users/richie/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/Users/richie/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/Users/richie/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
