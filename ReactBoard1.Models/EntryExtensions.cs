@@ -14,5 +14,12 @@ namespace ReactBoard1.Models
                     options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")), ServiceLifetime.Transient);
             services.AddTransient<IEntryRepository, EntryRepository>();
         }
+        public static void AddDependencyInjectionContainer(this IServiceCollection services, string connectionString)
+        {
+            services.AddEntityFrameworkSqlServer()
+                .AddDbContext<EntryDbContext>(options =>
+                    options.UseSqlServer(connectionString), ServiceLifetime.Transient);
+            services.AddTransient<IEntryRepository, EntryRepository>();
+        }
     }
 }    

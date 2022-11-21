@@ -33,8 +33,16 @@ namespace ReactBoard1Apis
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ReactBoard1Apis", Version = "v1" });
             });
-            services.AddDependencyInjectionContainer(Configuration);
+            // services.AddDependencyInjectionContainer(Configuration);
+            services.AddDependencyInjectionContainer(Configuration.GetConnectionString("DefaultConnection"));
             // AddDependencyInjectionContainer(services);
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder =>
+                {
+                    builder.WithOrigins("https://localhost:3000");
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,6 +58,9 @@ namespace ReactBoard1Apis
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            // adding UseCors... must be after UseRouting
+            app.UseCors();
 
             app.UseAuthorization();
 

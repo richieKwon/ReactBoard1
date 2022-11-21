@@ -8,24 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b894c514-9717-41fb-b5fc-5797ce6fa86a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ReactBoard1.Models/EntryExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReactBoard1Apis/Apis/EntriesController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReactBoard1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReactBoard1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReactBoard1.Models/EntryExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1.Models/EntryExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReactBoard1.Models/obj/Debug/net5.0/ReactBoard1.Models.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/Debug/net5.0/ReactBoard1.Models.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1.Models/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1.Models/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReactBoard1ApiTest/obj/Debug/net5.0/ReactBoard1ApiTest.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1ApiTest/obj/Debug/net5.0/ReactBoard1ApiTest.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1ApiTest/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1ApiTest/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1Apis/ReactBoard1Apis.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1Apis/ReactBoard1Apis.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReactBoard1Apis/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1Apis/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1Apis/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1Apis/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1Apis/obj/Debug/net5.0/ReactBoard1Apis.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1Apis/obj/Debug/net5.0/ReactBoard1Apis.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReactBoard1Apis/obj/Debug/net5.0/ReactBoard1Apis.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1Apis/obj/Debug/net5.0/ReactBoard1Apis.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1Apis/obj/ReactBoard1Apis.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1Apis/obj/ReactBoard1Apis.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1Apis/obj/ReactBoard1Apis.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1Apis/obj/ReactBoard1Apis.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1Apis/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1Apis/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1Apis/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1Apis/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1Apis/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1Apis/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReactBoard1Apis/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ReactBoard1Apis/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +137,8 @@
       <workItem from="1668529279642" duration="12527000" />
       <workItem from="1668606587567" duration="11896000" />
       <workItem from="1668888606671" duration="2472000" />
-      <workItem from="1668961896089" duration="11850000" />
+      <workItem from="1668961896089" duration="12659000" />
+      <workItem from="1669035146495" duration="2030000" />
     </task>
     <task id="LOCAL-00001" summary="Entry components and db table">
       <created>1668462347958</created>
@@ -193,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668889466844</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="api">
+      <created>1668982904591</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668982904592</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +216,7 @@
     <MESSAGE value="GetByAsync" />
     <MESSAGE value="api test" />
     <MESSAGE value="test and api" />
-    <option name="LAST_COMMIT_MESSAGE" value="test and api" />
+    <MESSAGE value="api" />
+    <option name="LAST_COMMIT_MESSAGE" value="api" />
   </component>
 </project>
